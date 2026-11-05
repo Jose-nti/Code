@@ -91,4 +91,4 @@ if start == "hard":
             print("fel bro")
             wlong += 1
         if wlong >= maxha:
-            print(guessez)
+            print(guessez) 
