@@ -22,7 +22,7 @@ while True:
         addlist = input("what you add list? if nothing type exit: ")
         påse.append(addlist)
         tm.sleep(2)
-    elif choice.upper() == "F":
+    elif choice.upper() == "F": 
         search = input("what you look for bro?: ")
         if search in påse:
             print("Found in påse bro!")
@@ -34,4 +34,4 @@ while True:
         print("ok bye bro")
         break
     else:
-        print("Invalid choice bro")
+        print("Not valid choice bro")
